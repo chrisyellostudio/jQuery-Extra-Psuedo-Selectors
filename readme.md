@@ -7,6 +7,9 @@ After trying to find a simple add-on for jQuery I decided to write one myself to
 use and share with others. The minified version weighs in at **462 bytes**, so
 it's not going to slow down your browser too much.
 
+The demo is bundled with Bootstrap CSS to make things look pretty, many thanks to
+[Bootstrap CDN](http://www.bootstrapcdn.com/) for providing this service.
+
 Licensed under the MIT license so do with it as you please!
 
 ## Usage
@@ -29,6 +32,9 @@ $(':empty:search, :tel, :input:color')
 This add-on can be combined with other psuedo selectors from **jQuery Extra
 Psuedo Selectors** as well as the default selectors available within the
 jQuery library.
+
+## Dependencies
+- Of course, jQuery (demo uses [jQuery 2.1.4](https://code.jquery.com/))
 
 ## Browser Support
 - Chrome
